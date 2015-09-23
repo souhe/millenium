@@ -1,0 +1,12 @@
+{
+	"title": "Szczep Millenium",
+	"description": "Oto my",
+	"photo": "",
+	"cadre": [{
+		"title": "komendant szczepu",
+		"name": "Bogusław Widera"
+	}, {
+		"title": "zastępca komendanta",
+		"name": "Piotr Widera"
+	}]	
+}
