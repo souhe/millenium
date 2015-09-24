@@ -16,8 +16,10 @@ class Home extends Component{
 		let team = this.props.team;
 		return (
 			<div>
-				<h3>{team.name}</h3>
-				<p>{team.description}</p>
+                <div >
+                    <h3>{team.name}</h3>
+                    <p>{team.description}</p>
+                </div>
 			</div>
 		);
     }

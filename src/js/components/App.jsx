@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import { Link } from 'react-router';
+import Header from './Header';
 
 class App extends Component{
     static propTypes = {
@@ -9,12 +10,12 @@ class App extends Component{
     render() {
         return (
             <div>
-                <div className="header"></div>
-                <ul className="nav">
-                    <li><Link to="/">O nas</Link></li>
-                    <li><Link to="/team/29dw">29 DW</Link></li>
-                </ul>
-                {this.props.children}
+                <Header />
+                <div className="row">
+                    <div className="large-12 column">
+                    {this.props.children}
+                    </div>
+                </div>
             </div>
         );
     }

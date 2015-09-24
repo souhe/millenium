@@ -1,0 +1,158 @@
+@import 'variables/colors';
+ 
+@navPadding: 1em;
+
+header{
+	background: @cDark;
+	.inner{
+		width: 100%;
+		//padding: 1em;
+		//overflow: hidden;
+		height: 3em;
+		margin: 0 auto;
+	  	position: relative;
+	  	// max-width: 1000px;
+		nav{
+			.logo {
+				text-decoration: none;
+				color: @cLight;
+				font-weight: 800;
+				font-size: 30px;
+				line-height: 40px;
+				padding: @navPadding 0;
+				margin: 0;
+			}
+			
+			>ul{
+				float: right;
+				list-style: none;
+				margin: 0;
+				>li{
+					float: left;
+					text-align: center;
+					line-height: 1em;
+					padding: @navPadding 1.5em;
+					border-bottom: solid 2px transparent;
+	  				position: relative;
+					height: 3em;
+					
+					a {
+	  					display: block;
+  						outline: none;
+  						width: 100%;
+	  					text-decoration: none;
+						color: @cLighter;
+					}
+					
+					&:hover{
+						cursor: pointer;
+						border-bottom: solid 2px @cAccent;
+						>ul{
+							display: block;
+						}
+					}
+					>ul{
+						 .inner-ul();
+					}
+				}
+			}
+			
+			
+		}
+	}
+	
+	[type="checkbox"], label {
+		display: none;
+	}
+	
+	.inner-ul(){
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 100%;
+		z-index: 2000;
+		background: @cDark;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+		li{
+			width: 100%;
+			text-align: left;
+			float: left;
+			line-height: 1.5em;
+			padding: .5em 1.5em;
+			border-bottom: solid 2px transparent;
+			
+			&:hover{
+				cursor: pointer;
+				border-bottom: solid 2px @cAccent;
+			}
+		}
+	}	
+	
+	@media screen and (max-width: 768px) {
+		nav ul {
+			display: none;
+		}
+	
+		label {
+			display: block;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			position: absolute;
+			right: 20px;
+			top: 0px;
+		}
+	
+		label:after{
+			content:'';
+			display: block;
+			width: 30px;
+			height: 5px;
+			background: #777;
+			margin: 7px 5px;
+			box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+		}
+	
+		[type="checkbox"]:checked ~ ul {
+			display: block;
+			z-index: 9999;
+			position: absolute;
+			right: 20px;
+			left: 20px;
+		}
+	
+		nav a {
+			color: #777;
+		}
+	
+		nav ul li {
+			display: block;
+			float: none;
+			width: 100%;
+			text-align: left;
+			background: #222;
+			text-indent: 20px;
+		}
+	
+		nav > ul > li {
+			margin-left: 0px;
+		}
+	
+		nav > ul li ul li {
+			display: block;
+			float: none;
+		}
+	
+		nav > ul li ul {
+			display: block;
+			position: relative;
+			width: 100%;
+			z-index: 9999;
+			float: none;
+		}
+	}
+}
+

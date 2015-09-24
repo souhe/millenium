@@ -104,6 +104,12 @@ gulp.task('build-less', function(){
 gulp.task('copy', function() {
     gulp.src('src/index.html')
       .pipe(gulp.dest('dist'));
+    // gulp.src('node_modules/materialize-css/bin/materialize.css')
+    //   .pipe(gulp.dest('dist/css'));
+    gulp.src('src/less/foundation.min.css')
+      .pipe(gulp.dest('dist/css'));
+    gulp.src('src/data/**/*.json')
+      .pipe(gulp.dest('dist/data'));
 });
 
 gulp.task('default', ['build-less', 'webpack', 'copy']);
@@ -114,7 +120,8 @@ gulp.task('watch', function() {
        livereload: true,
        port: 8004
     });
-     
+    
+    gulp.watch(['src/index.html', 'src/data/**/*.json'], ['copy']);
     gulp.watch('src/**/*.less', ['build-less']);
     gulp.watch(['src/**/*.js', 'src/**/*.jsx'], ['webpack']);
 });
