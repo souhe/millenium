@@ -2,6 +2,11 @@ import React, {Component, PropTypes} from 'react';
 import { Link } from 'react-router';
 
 export default class Header extends Component{
+	handleNavClick(){
+		var node = React.findDOMNode(this.refs.checkbox);
+		node.checked = false;
+	}
+
 	render (){
 		return (
 			<header>
@@ -9,8 +14,8 @@ export default class Header extends Component{
 					<div className="row">
 						<nav className="large-12 small-12 column">
 							<div className="logo">Szczep Millenium</div>
-							<input type="checkbox" id="navOpen" /><label htmlFor="navOpen"></label>
-							<ul>
+							<input ref="checkbox" type="checkbox" id="navOpen" /><label htmlFor="navOpen"></label>
+							<ul onClick={::this.handleNavClick}>
 								<li><Link to="/">O nas</Link></li>
 								<li className="group"> <a>Drużyny</a>
 									<ul>

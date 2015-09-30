@@ -22,7 +22,6 @@
 			position: absolute;
 			right: 0;
 			bottom: 0;
-			// float: right;
 			list-style: none;
 			margin: 0;
             padding: 0;
@@ -31,7 +30,6 @@
 				float: left;
 				text-align: center;
 				line-height: 1em;
-				// padding: @navPadding 1.5em;
   				position: relative;
 
 				a {
@@ -84,7 +82,7 @@
 	.inner-ul(){
 		display: none;
 		position: absolute;
-		left: 0;
+		right: 0;
 		top: 100%;
 		z-index: 2000;
 		background: @cDark;
@@ -134,18 +132,19 @@
 
     		label {
     			display: block;
-    			width: 40px;
-    			height: 40px;
+    			width: 2em;
+    			height: 2em;
     			cursor: pointer;
     			position: absolute;
     			right: 20px;
     			top: 0px;
+				margin: .5em;
     		}
 
     		label:after{
     			content:'';
     			display: block;
-    			width: 30px;
+    			width: 2em;
     			height: 5px;
     			background: #777;
     			margin: 7px 5px;
