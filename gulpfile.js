@@ -110,6 +110,8 @@ gulp.task('copy', function() {
       .pipe(gulp.dest('dist/css'));
     gulp.src('src/data/**/*.json')
       .pipe(gulp.dest('dist/data'));
+    gulp.src('src/fonts/**/*.*')
+        .pipe(gulp.dest('dist/fonts'));
 });
 
 gulp.task('default', ['build-less', 'webpack', 'copy']);
@@ -120,7 +122,7 @@ gulp.task('watch', function() {
        livereload: true,
        port: 8004
     });
-    
+
     gulp.watch(['src/index.html', 'src/data/**/*.json'], ['copy']);
     gulp.watch('src/**/*.less', ['build-less']);
     gulp.watch(['src/**/*.js', 'src/**/*.jsx'], ['webpack']);

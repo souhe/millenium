@@ -14,7 +14,7 @@ const initialState = {
     cadre: [],
     error: '',
     newsFeed: ''
-}
+};
 
 export default function reducer(state = initialState, action = {}){
     switch (action.type){
@@ -22,7 +22,7 @@ export default function reducer(state = initialState, action = {}){
             return {
                 ...state,
                 ...action.result
-            };       
+            };
         default:
             return state;
     }
