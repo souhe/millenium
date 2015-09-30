@@ -1637,3 +1637,389 @@
 {"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:19:05.804Z"}
 {"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 3 in session default","timestamp":"2015-09-30T18:19:05.816Z"}
 {"level":"info","message":"   PLUGIN     : Delete client socket KtiidbYz4NM9GTWYAABG ","timestamp":"2015-09-30T18:20:27.407Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard sy6nzyvP2Aa62ZBbAABK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:23.444Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close sy6nzyvP2Aa62ZBbAABK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:23.445Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 2UadkfHWTm8OcQDOAABI 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:23.449Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 2UadkfHWTm8OcQDOAABI 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:23.451Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T18:26:23.471Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T18:26:23.473Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = sMXnCxFOWhCWsTBiAABM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:24.401Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = sMXnCxFOWhCWsTBiAABM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:24.402Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:24.403Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T18:26:24.405Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T18:26:24.410Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25] socketid = zpMuYPa9tXFWr5TIAABO 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:25.358Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25] socketid = zpMuYPa9tXFWr5TIAABO 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:25.360Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:25.362Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:26:25.363Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T18:26:25.380Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard zpMuYPa9tXFWr5TIAABO 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:37:46.381Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close zpMuYPa9tXFWr5TIAABO 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T18:37:46.381Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T18:37:46.390Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket zpMuYPa9tXFWr5TIAABO ","timestamp":"2015-09-30T18:37:46.420Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (2)[Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 735) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537] socketid = MwsGnd8ryPAbbQR7AABS ce015a2c-5195-4512-85db-5f2110ca781a","timestamp":"2015-09-30T20:05:39.010Z"}
+{"level":"info","message":"   PLUGIN     : default New client (2)[Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 735) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537] socketid = MwsGnd8ryPAbbQR7AABS ce015a2c-5195-4512-85db-5f2110ca781a","timestamp":"2015-09-30T20:05:39.013Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 3 ce015a2c-5195-4512-85db-5f2110ca781a","timestamp":"2015-09-30T20:05:39.014Z"}
+{"level":"info","message":"   PLUGIN     : default New client (2) wait... ce015a2c-5195-4512-85db-5f2110ca781a","timestamp":"2015-09-30T20:05:39.015Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T20:05:39.024Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket MwsGnd8ryPAbbQR7AABS ","timestamp":"2015-09-30T20:07:04.191Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard sMXnCxFOWhCWsTBiAABM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:12.169Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close sMXnCxFOWhCWsTBiAABM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:12.172Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket sMXnCxFOWhCWsTBiAABM ","timestamp":"2015-09-30T21:03:12.182Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:03:12.577Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bG0XcMTp63OfCh50AABU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:13.196Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bG0XcMTp63OfCh50AABU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:13.197Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:13.198Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:03:13.199Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:03:13.207Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard bG0XcMTp63OfCh50AABU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:17.803Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close bG0XcMTp63OfCh50AABU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:17.806Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:32:17.826Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0SdQio7memXqtE1YAABW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:19.135Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0SdQio7memXqtE1YAABW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:19.137Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:19.139Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:32:19.140Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:32:19.147Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 0SdQio7memXqtE1YAABW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:38.828Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 0SdQio7memXqtE1YAABW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:38.835Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:33:38.840Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = SuFh4AFZQt6f_8MAAABY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:39.425Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = SuFh4AFZQt6f_8MAAABY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:39.426Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:39.427Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:39.428Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:33:39.432Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard SuFh4AFZQt6f_8MAAABY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:49.602Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close SuFh4AFZQt6f_8MAAABY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:49.606Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:33:49.612Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0KKinS3gEXFoLIzNAABa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:50.593Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0KKinS3gEXFoLIzNAABa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:50.594Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:50.595Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:33:50.596Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:33:50.601Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 0KKinS3gEXFoLIzNAABa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.293Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 0KKinS3gEXFoLIzNAABa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.295Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:34:20.304Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OzBXqotXsOVSHnVwAABc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.869Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OzBXqotXsOVSHnVwAABc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.870Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.871Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:20.872Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:34:20.876Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard OzBXqotXsOVSHnVwAABc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:31.581Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close OzBXqotXsOVSHnVwAABc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:31.582Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:34:31.587Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = pUh-Z-hDQS85yd1cAABe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:32.208Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = pUh-Z-hDQS85yd1cAABe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:32.209Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:32.210Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:34:32.211Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:34:32.214Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard pUh-Z-hDQS85yd1cAABe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:24.845Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close pUh-Z-hDQS85yd1cAABe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:24.846Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:35:24.855Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 4J6eXfWTC_0RMic3AABg d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:25.952Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 4J6eXfWTC_0RMic3AABg d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:25.953Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:25.954Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:35:25.955Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:35:25.964Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket 4J6eXfWTC_0RMic3AABg ","timestamp":"2015-09-30T21:35:26.320Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=ZCSgfdI3iK5q1keZAABi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:39.873Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:39.875Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:39.875Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:38:39.894Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard ZCSgfdI3iK5q1keZAABi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.016Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close ZCSgfdI3iK5q1keZAABi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.018Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket ZCSgfdI3iK5q1keZAABi ","timestamp":"2015-09-30T21:38:56.022Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:38:56.023Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = KM9Nwi12mjaJJ-nLAABk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.618Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = KM9Nwi12mjaJJ-nLAABk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.619Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.619Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:38:56.620Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:38:56.635Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket KM9Nwi12mjaJJ-nLAABk ","timestamp":"2015-09-30T21:38:57.066Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=n7sOljmtoX5ej73vAABm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:39:04.141Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:39:04.142Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:39:04.143Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:39:04.180Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard n7sOljmtoX5ej73vAABm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:36.489Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close n7sOljmtoX5ej73vAABm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:36.490Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket n7sOljmtoX5ej73vAABm ","timestamp":"2015-09-30T21:40:36.494Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:40:36.507Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = xOulHL_n_L3oJQvrAABo d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:37.109Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = xOulHL_n_L3oJQvrAABo d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:37.110Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:37.110Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:40:37.112Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:40:37.126Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket xOulHL_n_L3oJQvrAABo ","timestamp":"2015-09-30T21:40:37.570Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=YktHyaem3ujs4rIyAABq d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:41:05.568Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:41:05.569Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:41:05.570Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:41:05.587Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard YktHyaem3ujs4rIyAABq d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:27.956Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close YktHyaem3ujs4rIyAABq d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:27.962Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket YktHyaem3ujs4rIyAABq ","timestamp":"2015-09-30T21:46:27.966Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:46:27.973Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 3qAmv7D0Y_slnZMaAABs d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:28.727Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 3qAmv7D0Y_slnZMaAABs d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:28.728Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:28.728Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:28.729Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:46:28.742Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket 3qAmv7D0Y_slnZMaAABs ","timestamp":"2015-09-30T21:46:29.062Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=iSaj7PTKQhDdn4jyAABu d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:49.493Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:49.494Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:46:49.494Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:46:49.533Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard iSaj7PTKQhDdn4jyAABu d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:47:13.075Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close iSaj7PTKQhDdn4jyAABu d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:47:13.078Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket iSaj7PTKQhDdn4jyAABu ","timestamp":"2015-09-30T21:47:13.089Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:47:13.094Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = CK1m4sE5u_mA3gvBAABy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:13.985Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = CK1m4sE5u_mA3gvBAABy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:13.986Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:13.987Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:13.988Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:48:14.010Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard CK1m4sE5u_mA3gvBAABy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:23.747Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close CK1m4sE5u_mA3gvBAABy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:23.748Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:48:23.783Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket CK1m4sE5u_mA3gvBAABy ","timestamp":"2015-09-30T21:48:23.786Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = iVoQlXbsFYTEhkxcAAB0 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:27.083Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = iVoQlXbsFYTEhkxcAAB0 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:27.084Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:27.085Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:27.086Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:48:27.103Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket iVoQlXbsFYTEhkxcAAB0 ","timestamp":"2015-09-30T21:48:27.301Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=CNfWCrDMUWtOaWsAAAB2 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:43.690Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:43.691Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:43.692Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:48:43.715Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket CNfWCrDMUWtOaWsAAAB2 ","timestamp":"2015-09-30T21:48:44.124Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=2ohQB-lQ9ibiLTk1AAB4 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:59.075Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:59.076Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:48:59.079Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:48:59.090Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket 2ohQB-lQ9ibiLTk1AAB4 ","timestamp":"2015-09-30T21:48:59.479Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=BPjbRDlGD0s17ZA-AAB6 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:27.636Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:27.637Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:27.637Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:49:27.642Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard BPjbRDlGD0s17ZA-AAB6 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.261Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close BPjbRDlGD0s17ZA-AAB6 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.263Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:49:41.272Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bkZSXf9UyEBhTBytAAB8 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.649Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bkZSXf9UyEBhTBytAAB8 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.651Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.653Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:49:41.656Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:49:41.687Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard bkZSXf9UyEBhTBytAAB8 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:45.869Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close bkZSXf9UyEBhTBytAAB8 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:45.870Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:50:45.876Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = EoPnmB3lla3EKs3HAAB- d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:46.290Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = EoPnmB3lla3EKs3HAAB- d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:46.292Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:46.300Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:50:46.301Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:50:46.365Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard EoPnmB3lla3EKs3HAAB- d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:05.974Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close EoPnmB3lla3EKs3HAAB- d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:05.975Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:52:05.988Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = eaWBv8qd4MCVY4yJAACA d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:06.338Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = eaWBv8qd4MCVY4yJAACA d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:06.339Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:06.350Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:06.363Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:52:06.439Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard eaWBv8qd4MCVY4yJAACA d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.333Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close eaWBv8qd4MCVY4yJAACA d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.336Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:52:40.340Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = iPAzIHAD4P38kgnnAACC d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.818Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = iPAzIHAD4P38kgnnAACC d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.820Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.821Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:52:40.821Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:52:40.841Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard iPAzIHAD4P38kgnnAACC d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.393Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close iPAzIHAD4P38kgnnAACC d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.394Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:53:18.400Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = JxD2gMMc_yaVdiX_AACE d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.799Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = JxD2gMMc_yaVdiX_AACE d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.803Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.812Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:18.816Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:53:18.869Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard JxD2gMMc_yaVdiX_AACE d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.258Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close JxD2gMMc_yaVdiX_AACE d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.259Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:53:23.261Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = i5QDKsqG0EjxDeNjAACG d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.684Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = i5QDKsqG0EjxDeNjAACG d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.686Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.687Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:23.688Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:53:23.695Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard i5QDKsqG0EjxDeNjAACG d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:33.599Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close i5QDKsqG0EjxDeNjAACG d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:33.600Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:53:33.606Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = CreYlxzMhQu2g_wRAACI d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:34.013Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = CreYlxzMhQu2g_wRAACI d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:34.014Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:34.016Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:34.017Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:53:34.040Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard CreYlxzMhQu2g_wRAACI d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.308Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close CreYlxzMhQu2g_wRAACI d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.313Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:53:45.318Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0v0m-iMSQ9A7VF0OAACK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.806Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 0v0m-iMSQ9A7VF0OAACK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.808Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.817Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:45.818Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:53:45.823Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 0v0m-iMSQ9A7VF0OAACK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:59.761Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 0v0m-iMSQ9A7VF0OAACK d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:53:59.762Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:53:59.772Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = B_pk4FRupOyfSXnRAACM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:00.148Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = B_pk4FRupOyfSXnRAACM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:00.150Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:00.153Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:00.161Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:54:00.216Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard B_pk4FRupOyfSXnRAACM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:13.754Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close B_pk4FRupOyfSXnRAACM d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:13.755Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:54:13.758Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = pd5P3Wtarmqp2KnfAACO d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:14.175Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = pd5P3Wtarmqp2KnfAACO d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:14.186Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:14.191Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:14.193Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:54:14.423Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard pd5P3Wtarmqp2KnfAACO d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.211Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close pd5P3Wtarmqp2KnfAACO d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.212Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:54:30.217Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = XwRkhHtTvzmm35L5AACQ d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.799Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = XwRkhHtTvzmm35L5AACQ d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.803Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.805Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:30.816Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:54:30.908Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard XwRkhHtTvzmm35L5AACQ d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:48.528Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close XwRkhHtTvzmm35L5AACQ d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:48.529Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:54:48.536Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bET4xobH0XPkN9QRAACS d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:49.134Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = bET4xobH0XPkN9QRAACS d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:49.135Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:49.136Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:54:49.137Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:54:49.159Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard bET4xobH0XPkN9QRAACS d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:24.882Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close bET4xobH0XPkN9QRAACS d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:24.883Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:56:24.892Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 35Pr-Rpo_ZjBDCYhAACU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:25.969Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 35Pr-Rpo_ZjBDCYhAACU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:25.970Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:25.971Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:25.971Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:56:25.984Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 35Pr-Rpo_ZjBDCYhAACU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:40.170Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 35Pr-Rpo_ZjBDCYhAACU d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:40.170Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:56:40.180Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = rEo-T5u0zYgxOq9dAACW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:41.009Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = rEo-T5u0zYgxOq9dAACW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:41.010Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:41.015Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:41.019Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:56:41.026Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard rEo-T5u0zYgxOq9dAACW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:55.806Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close rEo-T5u0zYgxOq9dAACW d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:55.807Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:56:55.815Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = hMmhnQJo986c0jexAACY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:56.442Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = hMmhnQJo986c0jexAACY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:56.443Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:56.444Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:56:56.445Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:56:56.459Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard hMmhnQJo986c0jexAACY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:29.044Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close hMmhnQJo986c0jexAACY d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:29.045Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T21:57:29.055Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = f8N6XJqHjrB7MNrkAACa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:30.024Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = f8N6XJqHjrB7MNrkAACa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:30.028Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:30.029Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T21:57:30.031Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T21:57:30.050Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard f8N6XJqHjrB7MNrkAACa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:20.681Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close f8N6XJqHjrB7MNrkAACa d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:20.682Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:01:20.689Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OvgTKfSJnBOUTQVnAACc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:21.279Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OvgTKfSJnBOUTQVnAACc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:21.280Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:21.281Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:01:21.282Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:01:21.290Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard OvgTKfSJnBOUTQVnAACc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.593Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close OvgTKfSJnBOUTQVnAACc d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.610Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket OvgTKfSJnBOUTQVnAACc ","timestamp":"2015-09-30T22:02:07.616Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:02:07.633Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = b4WowcTRy3a74Yi8AACe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.852Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = b4WowcTRy3a74Yi8AACe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.853Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.856Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:02:07.862Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:02:07.869Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25] socketid = -ZIGZ4qYnhtPqFDhAACg 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:46.562Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25] socketid = -ZIGZ4qYnhtPqFDhAACg 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:46.564Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:46.564Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:46.565Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T22:05:46.573Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard -ZIGZ4qYnhtPqFDhAACg 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:52.778Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close -ZIGZ4qYnhtPqFDhAACg 9bdcefc0-9d71-4ddf-a37b-b0a2d10d6c94","timestamp":"2015-09-30T22:05:52.779Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:05:52.784Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket -ZIGZ4qYnhtPqFDhAACg ","timestamp":"2015-09-30T22:05:52.815Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard b4WowcTRy3a74Yi8AACe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:21.424Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close b4WowcTRy3a74Yi8AACe d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:21.425Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:06:21.433Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = T7sFTX-Ka5CC68I9AACi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:22.245Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = T7sFTX-Ka5CC68I9AACi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:22.246Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:22.246Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:22.247Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:06:22.561Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard T7sFTX-Ka5CC68I9AACi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:29.251Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close T7sFTX-Ka5CC68I9AACi d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:29.252Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket T7sFTX-Ka5CC68I9AACi ","timestamp":"2015-09-30T22:06:29.275Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:06:29.288Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = ittRYjgP-nu-rmC2AACk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:30.092Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = ittRYjgP-nu-rmC2AACk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:30.107Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:30.108Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:06:30.109Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:06:30.172Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard ittRYjgP-nu-rmC2AACk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:06.895Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close ittRYjgP-nu-rmC2AACk d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:06.909Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket ittRYjgP-nu-rmC2AACk ","timestamp":"2015-09-30T22:08:06.913Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:08:06.945Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = rv-LI6Y1zdslaomHAACm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:07.247Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = rv-LI6Y1zdslaomHAACm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:07.251Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:07.252Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:08:07.252Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:08:07.260Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 34E-pMacp6pa8oiXAACo 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:17:56.114Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = 34E-pMacp6pa8oiXAACo 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:17:56.120Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:17:56.121Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:17:56.122Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T22:17:56.130Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 34E-pMacp6pa8oiXAACo 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:18:24.702Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 34E-pMacp6pa8oiXAACo 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:18:24.703Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:18:24.712Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket 34E-pMacp6pa8oiXAACo ","timestamp":"2015-09-30T22:18:24.736Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=30gsLBW7vYqB2iEfAACq 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:18:24.927Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:18:24.931Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:18:24.935Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T22:18:24.942Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard 30gsLBW7vYqB2iEfAACq 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:19:31.573Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close 30gsLBW7vYqB2iEfAACq 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:19:31.574Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:19:31.583Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket 30gsLBW7vYqB2iEfAACq ","timestamp":"2015-09-30T22:19:31.601Z"}
+{"level":"info","message":"   PLUGIN     : default Client Reconnect (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid=LAtvoRD1C6p8wGPZAACs 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:19:53.423Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:19:53.425Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:19:53.427Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T22:19:53.461Z"}
+{"level":"info","message":"   PLUGIN     : Delete client socket LAtvoRD1C6p8wGPZAACs ","timestamp":"2015-09-30T22:25:35.294Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard rv-LI6Y1zdslaomHAACm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:39.600Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close rv-LI6Y1zdslaomHAACm d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:39.607Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:27:39.615Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = hSWpomXtH7XUSlAuAACw d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:41.697Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = hSWpomXtH7XUSlAuAACw d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:41.700Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:41.702Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:41.705Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:27:41.712Z"}
+{"level":"info","message":"   PLUGIN     : default Send RefreshClients to Dashboard hSWpomXtH7XUSlAuAACw d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.038Z"}
+{"level":"info","message":"   PLUGIN     : default Client Close hSWpomXtH7XUSlAuAACw d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.040Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 0 in session default","timestamp":"2015-09-30T22:27:56.044Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OlDznr_cHUxDbjThAACy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.758Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = OlDznr_cHUxDbjThAACy d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.759Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 1 d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.761Z"}
+{"level":"info","message":"   PLUGIN     : default New client (0) wait... d3f8d411-e248-42c6-94e6-01308ddcb286","timestamp":"2015-09-30T22:27:56.761Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 1 in session default","timestamp":"2015-09-30T22:27:56.766Z"}
+{"level":"info","message":"   PLUGIN     : default Send Refresh clientlist to dashboard (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = nOl_s_9nI4MpG_ggAAC2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:28:13.229Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1)[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36] socketid = nOl_s_9nI4MpG_ggAAC2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:28:13.231Z"}
+{"level":"info","message":"   PLUGIN     : default Number clients in session : 2 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:28:13.232Z"}
+{"level":"info","message":"   PLUGIN     : default New client (1) wait... 161aa680-0b50-4d44-bdcf-5ff5a9fdc3fb","timestamp":"2015-09-30T22:28:13.236Z"}
+{"type":"API","session":"default","level":"info","message":"   API : GetClients nb client 2 in session default","timestamp":"2015-09-30T22:28:13.246Z"}

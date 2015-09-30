@@ -3,6 +3,9 @@ import * as infoActionCreators from '../modules/info';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
+import Info from './Info.jsx';
+import NewsFeed from './NewsFeed.jsx';
+
 @connect(
     state => ({info: state.info}),
     dispatch => ({ actions: bindActionCreators(infoActionCreators, dispatch) })
@@ -15,9 +18,13 @@ class Home extends Component{
     render(){
 		let info = this.props.info;
 		return (
-			<div>
-				<h3>{info.title}</h3>
-				<p>{info.description}</p>
+            <div className="row">
+                <div className="large-8 medium-8 small-12 column">
+                    <Info info={info} />
+                </div>
+                <div className="large-4 medium-4 small-12 column">
+				    <NewsFeed url={info.newsfeed} />
+                </div>
 			</div>
 		);
     }

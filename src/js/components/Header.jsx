@@ -16,11 +16,11 @@ export default class Header extends Component{
 							<div className="logo">Szczep Millenium</div>
 							<input ref="checkbox" type="checkbox" id="navOpen" /><label htmlFor="navOpen"></label>
 							<ul onClick={::this.handleNavClick}>
-								<li><Link to="/">O nas</Link></li>
+								<li><Link to="/" activeClassName="active">O nas</Link></li>
 								<li className="group"> <a>Drużyny</a>
 									<ul>
 										<li><Link to="/team/9dh">9 DH</Link></li>
-										<li><Link to="/team/29dw">29 DW</Link></li>
+										<li><Link to="/team/29dw" activeClassName="active">29 DW</Link></li>
 										<li><Link to="/team/7gz">7 GZ</Link></li>
 									</ul>
 								</li>

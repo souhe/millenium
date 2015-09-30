@@ -1,6 +1,8 @@
 {
 	"title": "Szczep Millenium",
-	"description": "Oto my",
+	"description": ["Szczep Millenium działa w Lublińcu i jego okolicach, czyli w Hufcu ZHP Lubliniec w Chorągwi Śląskiej.",
+		"Aby dowiedzieć się co robimy zajrzyj w AKTUALNOŚCI i oczywiście do GALERII, a najlepiej opisuje nasz świat, oprócz zdjęć,  piosenka: Jestem harcerzem i mocno wierzę we wszystkie szczytne ideały, One są dla mnie niczym wyzwanie, któremu stawiam codziennie czoła. Jest 10 praw i dobrze wiem, że według nich pójdę swoją drogą. Lili jki znak i krzyża cień, one w mym życiu mi pomogą. Wszak przyrzekałem bo tego chciałem, żyć sprawiedliwie i odważnie. Ogniska blask, przyjaciół krąg, bijące serca i uściski rąk.",
+		"Niezależnie od tego ile masz lat - zapraszamy gorąco na nasze zbiórki. Na pewno znajdziesz coś dla siebie." ],
 	"photo": "",
 	"cadre": [{
 		"title": "komendant szczepu",
@@ -8,5 +10,13 @@
 	}, {
 		"title": "zastępca komendanta",
 		"name": "Piotr Widera"
-	}]	
+	},	{
+		"title": "opiekun",
+		"name": "Katarzyna Łukawska-Pasternak"
+	}],
+	"contact": {
+		"phone": ["792454039", "693901757"],
+		"email": ["szczep@lunet.pl"]
+	},
+	"newsfeed": "http://www.facebook.com/szczepmillenium"
 }
