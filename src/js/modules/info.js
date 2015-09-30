@@ -21,7 +21,7 @@ export default function reducer(state = initialState, action = {}){
             return {
                 ...state,
                 ...action.result
-            };       
+            };
         default:
             return state;
     }

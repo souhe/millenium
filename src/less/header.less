@@ -1,33 +1,28 @@
 @import 'variables/colors';
 
-@navPadding: 1em;
-@navHeight: 4em;
+@navPadding: .7em;
+// @navHeight: 3em;
 
-header{
+.navbar{
 	background: @cDark;
-	.inner{
-		width: 100%;
-		//padding: 1em;
-		//overflow: hidden;
-		// height: 3em;
-		margin: 0 auto;
-	  	position: relative;
-	  	// max-width: 1000px;
-    }
+
 	nav{
-        // height: @navHeight;
 		.logo {
+			float: left;
+			position: relative;
 			text-decoration: none;
 			color: @cLight;
 			font-weight: 800;
 			font-size: 30px;
-			line-height: 40px;
 			padding: @navPadding 0;
 			margin: 0;
 		}
 
 		>ul{
-			float: right;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			// float: right;
 			list-style: none;
 			margin: 0;
             padding: 0;
@@ -45,11 +40,13 @@ header{
 					width: 100%;
   					text-decoration: none;
 					color: @cLighter;
-                    padding: @navPadding 1.5em;
+                    padding: 1em 1.5em;
                     box-sizing: border-box;
 				}
 
-				&:hover > a {
+				&:hover  {
+					cursor: pointer;
+
                     &::before{
                         content: '';
                         width: 100%;
@@ -59,9 +56,18 @@ header{
                         bottom: 0;
                         left: 0;
                     }
-					cursor: pointer;
+
 					>ul{
 						display: block;
+						&::before{
+	                        content: '';
+	                        width: 100%;
+	                        position: absolute;
+	                        background: @cAccent;
+	                        height: 2px;
+	                        top: -2px;
+	                        left: 0;
+	                    }
 					}
 				}
 				>ul{
@@ -87,14 +93,14 @@ header{
 		padding: 0;
 
 		li{
-			width: 100%;
+			// width: 100%;
 			text-align: left;
 			float: left;
 			line-height: 1.5em;
-			padding: .5em 1.5em;
-			border-bottom: solid 2px transparent;
-            height: auto;
-			&:hover>a{
+			// padding: .5em .5em;
+			// border-bottom: solid 2px transparent;
+            // height: auto;
+			&:hover > a{
 				cursor: pointer;
 				// border-bottom: solid 2px @cAccent;
 			}
@@ -103,16 +109,20 @@ header{
 
 	@media screen and (max-width: 768px) {
 		nav {
-            >ul {
-    			display: none;
-                top: @navHeight;
 
+            >ul {
+			 	display: none;
+			 	z-index: 9999;
+ 				clear: both;
+				position: relative;
+				width: 100%;
+				left: auto;
+				bottom: auto;
                 >li {
         			display: block;
         			float: none;
         			width: 100%;
         			text-align: left;
-        			// background: #222;
         			text-indent: 20px;
                     margin-left: 0px;
 
@@ -144,10 +154,6 @@ header{
 
     		[type="checkbox"]:checked ~ ul {
     			display: block;
-    			z-index: 9999;
-    			position: absolute;
-    			right: 20px;
-    			left: 20px;
     		}
     	}
     }

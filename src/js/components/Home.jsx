@@ -24,7 +24,6 @@ class Home extends Component{
 
     static fetchData(store){
         let {fetchInfo} = infoActionCreators;
-
         return store.dispatch(fetchInfo());
     }
 }

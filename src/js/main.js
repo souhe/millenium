@@ -7,9 +7,9 @@ import history from './history'
 
 
 const store = createStore();
-const routes = createRoutes(store); 
+const routes = createRoutes(store);
 
-const component = ( 
+const component = (
     <Provider store={store} key="provider">
         {() => <Router history={history} children={routes}/>}
     </Provider>
