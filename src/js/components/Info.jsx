@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import Cadre from './Cadre.jsx';
+import H1 from './common/H1';
 
 export default class Info extends Component{
     static propTypes = {
@@ -12,7 +13,7 @@ export default class Info extends Component{
 
         return (
             <div className="info">
-                <h3>{info.title}</h3>
+                <H1>{info.title}</H1>
 				{content}
 
                 <h4>Kadra</h4>
