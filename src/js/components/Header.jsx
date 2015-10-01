@@ -10,6 +10,7 @@ export default class Header extends Component{
 	render (){
 		return (
 			<header>
+				<div className="header-image"></div>
 				<div className="navbar">
 					<div className="row">
 						<nav className="large-12 small-12 column">

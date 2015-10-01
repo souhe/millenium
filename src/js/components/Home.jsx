@@ -3,8 +3,9 @@ import * as infoActionCreators from '../modules/info';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import Info from './Info.jsx';
-import NewsFeed from './NewsFeed.jsx';
+import Info from './Info';
+import NewsFeed from './NewsFeed';
+import Paper from './common/Paper';
 
 @connect(
     state => ({info: state.info}),
@@ -20,7 +21,9 @@ class Home extends Component{
 		return (
             <div className="row">
                 <div className="large-8 medium-8 small-12 column">
-                    <Info info={info} />
+                    <Paper>
+                        <Info info={info} />
+                    </Paper>
                 </div>
                 <div className="large-4 medium-4 small-12 column">
 				    <NewsFeed url={info.newsfeed} />

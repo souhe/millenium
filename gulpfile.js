@@ -112,6 +112,8 @@ gulp.task('copy', function() {
       .pipe(gulp.dest('dist/data'));
     gulp.src('src/fonts/**/*.*')
         .pipe(gulp.dest('dist/fonts'));
+    gulp.src('src/images/**/*.*')
+        .pipe(gulp.dest('dist/images'));
 });
 
 gulp.task('default', ['build-less', 'webpack', 'copy']);

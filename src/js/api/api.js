@@ -6,11 +6,6 @@ class Api {
             url: url,
             method: 'get'
         });
-
-        // return fetch(url).then(function(response) {
-        //     console.log('fetchewd', response);
-        //     return response.json()
-        // });
     }
 }
 

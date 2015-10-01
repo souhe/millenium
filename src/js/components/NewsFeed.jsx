@@ -9,8 +9,9 @@ export default class Info extends Component{
         var {url} = this.props;
         return (
             <div className="newsfeed">
-                <div className="fb-page" data-href={url} data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite={url}><a href={url}>
-                    Szczep Millenium</a></blockquote></div></div>
+                <div className="fb-page" data-href="https://www.facebook.com/szczepmillenium" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" data-width="500">
+
+                </div>
             </div>
         );
     }

@@ -11,7 +11,7 @@ class App extends Component{
         return (
             <div>
                 <Header />
-                <div className="row">
+                <div className="row content">
                     <div className="large-12 column">
                     {this.props.children}
                     </div>
