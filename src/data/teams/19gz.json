@@ -1,0 +1,20 @@
+{
+	"name": "19 Gromada Zuchowa Wszędobylscy",
+	"description": "W Szkole Podstawowej nr 3 w Lublińcu działa drużyna o łacińsko brzmiącej nazwie odwołującej się do wesołych leśnych zabaw. Zrzesza nie tylko dzieci z tej szkoły awansujące z 7 Gromady Zuchowej, ale też wszystkich chętnych w wieku od 10 do 13 lat, którzy chcą poznać smak harcerskiej przygody.",
+	"photo": "",
+	"cadre": [{
+		"title": "drużynowa",
+		"name": "Julia Prandzioch"
+	}, {
+		"title": "przyboczny",
+		"name": "Piotr Majewski"
+	}, {
+		"title": "przyboczny",
+		"name": "Piotr Chrzęstek"
+	}],
+	"meeting": {
+		"day": "czwartek",
+		"time": "15:30",
+		"place": "Przedszkole przy ul. Lublinieckiej 3"
+	}
+}

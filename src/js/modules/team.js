@@ -20,7 +20,7 @@ export default function reducer(state = initialState, action = {}){
     switch (action.type){
         case ActionTypes.FETCH_TEAM_SUCCESS:
             return {
-                ...state,
+                ...initialState,
                 ...action.result
             };
         default:
