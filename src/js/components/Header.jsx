@@ -4,8 +4,8 @@ import styles from './header.less';
 
 export default class Header extends Component{
 	handleNavClick(){
-		var node = React.findDOMNode(this.refs.checkbox);
-		node.checked = false;
+		// var node = React.findDOMNode(this.refs.checkbox);
+		this.refs.checkbox.checked = false;
 	}
 
 	render (){

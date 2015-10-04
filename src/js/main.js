@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Router from 'react-router';
 import createRoutes from './createRoutes.jsx';
 import { Provider } from 'react-redux';
@@ -15,4 +16,4 @@ const component = (
     </Provider>
 );
 
-React.render(component, document.getElementById("main"));
+ReactDOM.render(component, document.getElementById("main"));

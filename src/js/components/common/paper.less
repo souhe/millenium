@@ -3,5 +3,14 @@
 .paper{
     background: @cLightest;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.noPadding{
+    composes: paper;
+    padding: 1em 0;
+}
+
+.padding {
+    composes: paper;
     padding: 1em;
 }

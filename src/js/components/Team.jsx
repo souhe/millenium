@@ -5,10 +5,13 @@ import {connect} from 'react-redux';
 
 import NewsFeed from './NewsFeed';
 import Paper from './common/Paper';
+import PaperPaddingContent from './common/PaperPaddingContent';
 import Markdown from 'react-markdown';
 import H1 from './common/H1';
-import Cadre from './Cadre.jsx';
-import Meeting from './Meeting.jsx';
+import Cadre from './Cadre';
+import Meeting from './Meeting';
+import TeamPhoto from './TeamPhoto';
+
 
 @connect(
     state => ({team: state.team}),
@@ -32,11 +35,17 @@ class Home extends Component{
 		return (
             <div className="row">
                 <div className={contentClasses}>
-                    <Paper>
-                        <H1>{team.name}</H1>
-                        <Markdown source={team.description} />
-                        <Cadre list={team.cadre} />
-                        <Meeting time={time} day={day} place={place} />
+                    <Paper noPadding={true}>
+                        <PaperPaddingContent>
+                            <H1>{team.name}</H1>
+                        </PaperPaddingContent>
+
+                        <TeamPhoto photoName={team.photo} />
+                        <PaperPaddingContent>
+                            <Markdown source={team.description} />
+                            <Cadre list={team.cadre} />
+                            <Meeting time={time} day={day} place={place} />
+                        </PaperPaddingContent>
                     </Paper>
                 </div>
                 {newsFeed}
