@@ -17,9 +17,12 @@ export default class Cadre extends Component{
         }) : null;
 
         return (
-            <ul className="info">
-                {content}
-            </ul>
+            <div>
+                <h3>Kadra</h3>
+                <ul className="info">
+                    {content}
+                </ul>
+            </div>
         );
     }
 }

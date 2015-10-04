@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import Cadre from './Cadre.jsx';
+import Markdown from 'react-markdown';
 import H1 from './common/H1';
 
 export default class Info extends Component{
@@ -9,14 +10,13 @@ export default class Info extends Component{
 
     render(){
         var {info} = this.props;
-        var content = info.description ? info.description.map((item) => <p>{item}</p>) : null;
 
         return (
-            <div className="info">
+            <div>
                 <H1>{info.title}</H1>
-				{content}
 
-                <h4>Kadra</h4>
+                <Markdown source={info.description} />
+
                 <Cadre list={info.cadre} />
             </div>
         );

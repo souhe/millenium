@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import { Link } from 'react-router';
+import styles from './header.less';
 
 export default class Header extends Component{
 	handleNavClick(){
@@ -10,22 +11,22 @@ export default class Header extends Component{
 	render (){
 		return (
 			<header>
-				<div className="header-image"></div>
-				<div className="navbar">
+				<div className={styles.headerImage}></div>
+				<div className={styles.navbar}>
 					<div className="row">
 						<nav className="large-12 small-12 column">
-							<div className="logo">Szczep Millenium</div>
+							<div className={styles.logo}>Szczep Millenium</div>
 							<input ref="checkbox" type="checkbox" id="navOpen" /><label htmlFor="navOpen"></label>
 							<ul onClick={::this.handleNavClick}>
 								<li><Link to="/" activeClassName="active">O nas</Link></li>
-								<li className="group"> <a>Drużyny</a>
+								<li className={styles.group}> <a>Drużyny</a>
 									<ul>
 										<li><Link to="/team/9dh">9 DH</Link></li>
 										<li><Link to="/team/29dw" activeClassName="active">29 DW</Link></li>
 										<li><Link to="/team/7gz">7 GZ</Link></li>
 									</ul>
 								</li>
-								<li className="group"> <a>Galeria</a>
+								<li className={styles.group}> <a>Galeria</a>
 									<ul>
 										<li><Link to="/">Szczep Millenium</Link></li>
 										<li><Link to="/">Archiwum</Link></li>

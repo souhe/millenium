@@ -3,6 +3,13 @@ import * as teamActionCreators from '../modules/team';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
+import NewsFeed from './NewsFeed';
+import Paper from './common/Paper';
+import Markdown from 'react-markdown';
+import H1 from './common/H1';
+import Cadre from './Cadre.jsx';
+import Meeting from './Meeting.jsx';
+
 @connect(
     state => ({team: state.team}),
     dispatch => ({ actions: bindActionCreators(teamActionCreators, dispatch) })
@@ -14,12 +21,25 @@ class Home extends Component{
     }
     render(){
 		let team = this.props.team;
+        let {time, day, place} = team.meeting || {};
+        let contentClasses = team.newsfeed? "large-8 medium-8 small-12 column" : "large-12 medium-12 small-12 column";
+        let newsFeed = team.newsfeed? (
+            <div className="large-4 medium-4 small-12 column">
+                <NewsFeed url={team.newsfeed} />
+            </div>
+        ): null;
+
 		return (
-			<div>
-                <div >
-                    <h3>{team.name}</h3>
-                    <p>{team.description}</p>
+            <div className="row">
+                <div className={contentClasses}>
+                    <Paper>
+                        <H1>{team.name}</H1>
+                        <Markdown source={team.description} />
+                        <Cadre list={team.cadre} />
+                        <Meeting time={time} day={day} place={place} />
+                    </Paper>
                 </div>
+                {newsFeed}
 			</div>
 		);
     }

@@ -1,0 +1,17 @@
+{
+	"name": "7 Gromada Zuchowa Leśne Skrzaty",
+	"description": "Gromada zuchowa to taka drużyna, która pracuje z najmłodszymi. Praca z zuchami, czyli dziećmi w wieku od 7 do 10 lat, ma w naszym szczepie ma ponad 40-letnie tradycje. <br /> 7 GZ działa przy Szkole Podstawowej nr 3 w Lublińcu przy ul. Zwycięstwa.",
+	"photo": "",
+	"cadre": [{
+		"title": "drużynowa",
+		"name": "Oktawia Basan"
+	}, {
+		"title": "przyboczna",
+		"name": "Weronika Wąsala"
+	}],
+	"meeting": {
+		"day": "sroda",
+		"time": "16:15",
+		"place": "SP nr3"
+	}
+}
