@@ -1,6 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import { Link } from 'react-router';
 import Header from './Header';
+import Footer from './Footer';
 
 class App extends Component{
     static propTypes = {
@@ -16,6 +17,7 @@ class App extends Component{
                     {this.props.children}
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }
