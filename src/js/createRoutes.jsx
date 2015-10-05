@@ -36,7 +36,6 @@ function getFetchData(component = {}) {
 export default function createFetchDataHook(store){
     return (nextState, redirectTo, callback) => {
         var stateLocation = nextState.location.state && nextState.location.state.location ?  nextState.location.state.location.pathname : nextState.location.state;
-        console.log('TRANSITION HOOK START!', `${stateLocation} => ${nextState.location.pathname}`, nextState);
 
         const { params, location: { query } } = nextState;
         const promises = nextState.routes

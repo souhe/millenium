@@ -1,6 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import H3 from './common/H3.jsx';
 import styles from './cadre.less';
+import uuid from 'uuid';
 
 var CadreItem = ({title, name}) => (
     <li >
@@ -16,7 +17,7 @@ export default class Cadre extends Component{
 
     render(){
         var {list} = this.props;
-        var content = list ? list.map(item => <CadreItem {...item} />) : null;
+        var content = list ? list.map(item => <CadreItem {...item} key={uuid.v1()} />) : null;
 
         return (
             <div className={styles.cadre}>

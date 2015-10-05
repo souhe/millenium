@@ -12,7 +12,7 @@ const routes = createRoutes(store);
 
 const component = (
     <Provider store={store} key="provider">
-        {() => <Router history={history} children={routes}/>}
+        <Router history={history} children={routes}/>
     </Provider>
 );
 

@@ -5,7 +5,6 @@
 @navPadding: .7em;
 
 .active{
-	color: red;
 	&::after{
 		content: '';
 		width: 100%;
@@ -87,6 +86,7 @@
 
 					>ul{
 						.opacity(1);
+						visibility: visible;
 						.transition(all 0.3s);
 
 						&::before{
@@ -109,6 +109,7 @@
 
 	.inner-ul(){
 		.opacity(0);
+		visibility: hidden;
 		position: absolute;
 		right: 0;
 		top: 100%;
@@ -214,7 +215,8 @@
     }
 
     .inner-small-ul(){
-        display: block;
+		.opacity(1);
+		visibility: visible;
         position: relative;
         width: 100%;
         z-index: 9999;
