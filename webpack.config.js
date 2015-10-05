@@ -15,7 +15,8 @@ module.exports = {
                 }
             },
             { test: /\.less$/, loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!less-loader' },
-            { test: /\.png$/, loader: "url-loader?limit=100000" }
+            { test: /\.png$/, loader: "url-loader?limit=100000" },
+            { test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/, loader : 'file-loader'}
         ]
     },
     plugins: [

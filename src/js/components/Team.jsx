@@ -11,7 +11,7 @@ import H1 from './common/H1';
 import Cadre from './Cadre';
 import Meeting from './Meeting';
 import TeamPhoto from './TeamPhoto';
-
+import Contact from './Contact';
 
 @connect(
     state => ({team: state.team}),
@@ -45,6 +45,7 @@ class Home extends Component{
                             <Markdown source={team.description} />
                             <Cadre list={team.cadre} />
                             <Meeting time={time} day={day} place={place} />
+                            {team.contact? <Contact {...team.contact} /> : null}
                         </PaperPaddingContent>
                     </Paper>
                 </div>

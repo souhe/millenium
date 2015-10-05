@@ -1,7 +1,41 @@
-@import '../../less/colors';
+@import './commonStyles/colors';
 
 .footer{
     background: @cDark;
     padding: 1em;
-    margin-top: 1em;
+    margin-top: 2em;
+    color: @cLight;
+}
+
+.linksHeader{
+    color: @cAccent;
+    border-bottom: solid 1px @cAccent;
+    font-size: 1.1em;
+    padding: .3em 0;
+    margin-bottom: .5em;
+}
+
+.aClear{
+    a {
+        font-style: none;
+        color: inherit;
+        text-decoration: none;
+
+        &:active{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
+
+.links{
+    composes: aClear;
+    a{
+        color: @cLight;
+        padding: .3em;
+        display: block;
+        &:hover{
+            font-weight: bold;
+        }
+    }
 }

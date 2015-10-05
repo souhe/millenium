@@ -126,7 +126,7 @@ gulp.task('watch', function() {
     });
 
     gulp.watch(['src/index.html', 'src/data/**/*.json'], ['copy']);
-    gulp.watch('src/**/*.less', ['build-less']);
+    gulp.watch('src/less/**/*.less', ['build-less']);
     gulp.watch(['src/**/*.js', 'src/**/*.jsx', 'src/**/*.less'], ['webpack']);
 });
 
