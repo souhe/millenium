@@ -13,7 +13,7 @@ class App extends Component{
     render() {
         return (
             <div>
-                <Header />
+                <Header location={this.props.location} />
 
                 <div className="row content">
                     <div className="large-12 column">

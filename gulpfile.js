@@ -66,7 +66,7 @@ gulp.task("webpack", function() {
             }
             gutil.log(stats.toString(defaultStatsOptions));
         }))
-        .pipe(concat('main.js'))
+        // .pipe(concat('main.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(connect.reload())
         .on('end', function() {
@@ -108,6 +108,8 @@ gulp.task('copy', function() {
     //   .pipe(gulp.dest('dist/css'));
     gulp.src('src/less/foundation.min.css')
       .pipe(gulp.dest('dist/css'));
+      gulp.src('src/less/font-awesome.min.css')
+        .pipe(gulp.dest('dist/css'));
     gulp.src('src/data/**/*.json')
       .pipe(gulp.dest('dist/data'));
     gulp.src('src/fonts/**/*.*')

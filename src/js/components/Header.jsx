@@ -7,7 +7,13 @@ export default class Header extends Component{
 		this.refs.checkbox.checked = false;
 	}
 
+	activeClass(path){
+		let {pathname} = this.props.location;
+		return (pathname.indexOf(path) > -1)? styles.active: '';
+	}
+
 	render (){
+		let {pathname} = this.props.location;
 		return (
 			<header>
 				<div className={styles.headerImage}></div>
@@ -17,12 +23,12 @@ export default class Header extends Component{
 							<div className={styles.logo}>Szczep Millenium</div>
 							<input ref="checkbox" type="checkbox" id="navOpen" /><label htmlFor="navOpen"></label>
 							<ul onClick={::this.handleNavClick}>
-								<li><Link to="/" activeClassName="active">O nas</Link></li>
-								<li className={styles.group}> <a>Drużyny</a>
+								<li className={this.activeClass('about')}><Link to="/about" >O nas</Link></li>
+								<li className={this.activeClass('team')}> <a>Drużyny</a>
 									<ul>
 										<li><Link to="/team/7gz">7 GZ</Link></li>
 										<li><Link to="/team/19gz">19 GZ</Link></li>
-										<li><Link to="/team/9dh">9 DH</Link></li>
+										<li><Link to="/team/9dh" activeClassName="active">9 DH</Link></li>
 										<li><Link to="/team/17dh">17 DH</Link></li>
 										<li><Link to="/team/29dw">29 DW</Link></li>
 										<li><Link to="/team/13dh">13 DH</Link></li>

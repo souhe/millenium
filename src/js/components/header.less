@@ -4,6 +4,19 @@
 
 @navPadding: .7em;
 
+.active{
+	color: red;
+	&::after{
+		content: '';
+		width: 100%;
+		position: absolute;
+		background: @cAccent;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+	}
+}
+
 .headerImage{
 	background: #B5F0FF url(../../images/header.png);
 	background-repeat: no-repeat;
@@ -82,6 +95,7 @@
 	                    }
 					}
 				}
+
 				>ul{
 					 .inner-ul();
 				}

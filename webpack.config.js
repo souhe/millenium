@@ -14,16 +14,13 @@ module.exports = {
                     stage: 0
                 }
             },
-            { test: /\.less$/, loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!less-loader' },
+            { test: /\.(less|css)(\?.+)?$/, loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!less-loader' },
             { test: /\.png$/, loader: "url-loader?limit=100000" },
-            { test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/, loader : 'file-loader'}
+            { test: /\.(otf|eot|svg|ttf|woff|woff2)(\?.+)?$/, loader: 'url-loader?limit=8192' }
         ]
     },
     plugins: [
-        new ExtractTextPlugin('style.css', { allChunks: true }),
-        new webpack.ProvidePlugin({
-            'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
-        })
+        // new ExtractTextPlugin('style.css')
     ],
     devtool: "inline-source-map"
 };
