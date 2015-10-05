@@ -16,7 +16,7 @@ export default class Info extends Component{
         var {url} = this.props;
         return (
             <div className={styles.newsfeed}>
-                <div className="fb-page" data-href={url} data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true" data-width="500">
+                <div className="fb-page" data-href={url} data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true" data-width="600">
 
                 </div>
             </div>

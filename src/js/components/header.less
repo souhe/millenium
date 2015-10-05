@@ -1,4 +1,6 @@
 @import './commonStyles/colors';
+@import '../../less/lessPrefixer';
+
 
 @navPadding: .7em;
 
@@ -46,31 +48,37 @@
 					color: @cLighter;
                     padding: 1em 1.5em;
                     box-sizing: border-box;
+
+					&:hover{
+						font-weight: normal;
+					}
+				}
+
+				&::before{
+					content: '';
+					width: 100%;
+					position: absolute;
+					background: @cAccent;
+					height: 0;
+					bottom: 0;
+					left: 0;
 				}
 
 				&:hover  {
 					cursor: pointer;
 
                     &::before{
-                        content: '';
-                        width: 100%;
-                        position: absolute;
-                        background: @cAccent;
                         height: 2px;
-                        bottom: 0;
-                        left: 0;
+						.transition(all 0.3s);
                     }
 
 					>ul{
-						display: block;
+						.opacity(1);
+						.transition(all 0.3s);
+
 						&::before{
-	                        content: '';
-	                        width: 100%;
-	                        position: absolute;
-	                        background: @cAccent;
 	                        height: 2px;
-	                        top: -2px;
-	                        left: 0;
+							.transition(all 0.3s);
 	                    }
 					}
 				}
@@ -86,7 +94,7 @@
 	}
 
 	.inner-ul(){
-		display: none;
+		.opacity(0);
 		position: absolute;
 		right: 0;
 		top: 100%;
@@ -96,12 +104,45 @@
 		margin: 0;
 		padding: 0;
 
+		&::before{
+			content: '';
+			width: 100%;
+			position: absolute;
+			background: @cAccent;
+			height: 0;
+			top: -2px;
+			left: 0;
+		}
+
 		li{
 			text-align: left;
 			float: left;
 			line-height: 1.5em;
+			width: 100%;
+
+			> a{
+				&::before{
+					content: '';
+					width: 0;
+					height: 100%;
+					background: @cDarker;
+					position: absolute;
+					top: 0 ;
+					left : 0;
+					z-index: -1;
+					.opacity(0);
+				}
+			}
+
 			&:hover > a{
 				cursor: pointer;
+				position: relative;
+
+				&::before{
+					width: 100%;
+					.opacity(1);
+					.transition(all 0.3s);
+				}
 			}
 		}
 	}

@@ -1,14 +1,16 @@
 import React from 'react';
+import H3 from './common/H3.jsx';
+
 import styles from './contact.less';
 
 var Group = ({name, items}) => {
-    let liItems = items.map(item => <li className={styles.contactItem}>{item}</li>)
+    let liItems = items.join(',');
     return (
         <div>
-            <label>{name}</label>
-            <ul>
+            <label><b>{name}: </b></label>
+            <span>
                 {liItems}
-            </ul>
+            </span>
         </div>
     );
 }
@@ -16,7 +18,7 @@ var Group = ({name, items}) => {
 export default ({gg, phone, email}) => {
     return (
         <div className="contactInfo">
-            <h3>Kontakt</h3>
+            <H3>Kontakt</H3>
             {email && email.length? <Group name="Email" items={email} />: null}
             {phone && phone.length? <Group name="Telefon" items={phone} />: null}
             {gg && gg.length? <Group name="GG" items={gg} />: null}

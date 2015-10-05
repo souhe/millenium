@@ -4,7 +4,6 @@ import styles from './header.less';
 
 export default class Header extends Component{
 	handleNavClick(){
-		// var node = React.findDOMNode(this.refs.checkbox);
 		this.refs.checkbox.checked = false;
 	}
 
@@ -31,8 +30,9 @@ export default class Header extends Component{
 								</li>
 								<li className={styles.group}> <a>Galeria</a>
 									<ul>
-										<li><Link to="/">Szczep Millenium</Link></li>
-										<li><Link to="/">Archiwum</Link></li>
+										<li><a href="https://picasaweb.google.com/112150712274847266679">Szczep Millenium</a></li>
+										<li><a href="https://picasaweb.google.com/szczepmillenium">Archiwum</a></li>
+										<li><a href="https://picasaweb.google.com/114215322287153156788">Hufiec</a></li>
 									</ul>
 								</li>
 							</ul>
