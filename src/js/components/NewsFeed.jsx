@@ -8,9 +8,33 @@ export default class Info extends Component{
 
     componentDidMount(){
         if(this.props.url){
-            fbAsyncInit();
+            this.fbTryInit();
         }
     }
+
+    componentWillReceiveProps(nextProps){
+        if(nextProps.url){
+            this.fbTryInit();
+        }
+    }
+
+    fbTryInit(){
+        if(window.FB){
+            this.fbAsyncInit();
+        }else{
+            window.fbAsyncInit = () => {
+                this.fbAsyncInit();
+            }
+        }
+    }
+
+    fbAsyncInit() {
+        FB.init({
+            appId      : '1028240110542350',
+            xfbml      : true,
+            version    : 'v2.4'
+        });
+    };
 
     render(){
         var {url} = this.props;

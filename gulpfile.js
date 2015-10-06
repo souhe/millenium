@@ -66,7 +66,7 @@ gulp.task("webpack", function() {
             }
             gutil.log(stats.toString(defaultStatsOptions));
         }))
-        // .pipe(concat('main.js'))
+        .pipe(concat('main.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(connect.reload())
         .on('end', function() {
