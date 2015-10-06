@@ -2,7 +2,13 @@ import React, {Component, PropTypes} from 'react';
 import { Link } from 'react-router';
 import styles from './header.less';
 
-export default class Header extends Component{
+export default class Header extends Component {
+	static propTypes = {
+		location: PropTypes.object,
+		galleries: PropTypes.array,
+		teams: PropTypes.array
+	}
+
 	handleNavClick(){
 		this.refs.checkbox.checked = false;
 	}
@@ -14,6 +20,13 @@ export default class Header extends Component{
 
 	render (){
 		let {pathname} = this.props.location;
+		let galleries = this.props.galleries
+			? this.props.galleries.map(({url, name}) => <li key={url}><a href={url}>{name}</a></li>)
+			: null;
+		let teams = this.props.teams
+			? this.props.teams.map(({file, name}) => <li key={file}><Link to={`/team/${file}`}>{name}</Link></li>)
+			: null;
+
 		return (
 			<header>
 				<div className={styles.headerImage}></div>
@@ -26,19 +39,12 @@ export default class Header extends Component{
 								<li className={this.activeClass('about')}><Link to="/about" >O nas</Link></li>
 								<li className={this.activeClass('team')}> <a>Drużyny</a>
 									<ul>
-										<li><Link to="/team/7gz">7 GZ</Link></li>
-										<li><Link to="/team/19gz">19 GZ</Link></li>
-										<li><Link to="/team/9dh" activeClassName="active">9 DH</Link></li>
-										<li><Link to="/team/17dh">17 DH</Link></li>
-										<li><Link to="/team/29dw">29 DW</Link></li>
-										<li><Link to="/team/13dh">13 DH</Link></li>
+										{teams}
 									</ul>
 								</li>
 								<li className={styles.group}> <a>Galeria</a>
 									<ul>
-										<li><a href="https://picasaweb.google.com/112150712274847266679">Szczep Millenium</a></li>
-										<li><a href="https://picasaweb.google.com/szczepmillenium">Archiwum</a></li>
-										<li><a href="https://picasaweb.google.com/114215322287153156788">Hufiec</a></li>
+										{galleries}
 									</ul>
 								</li>
 							</ul>

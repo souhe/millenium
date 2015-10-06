@@ -7,7 +7,7 @@ import App from './components/App';
 import Team from './components/Team';
 
 export default store => (
-    <Route component={App} >
+    <Route component={App}>
         <Redirect from="/" to="/about" />
         <Route path="/about" component={Home} onEnter={createFetchDataHook(store)} />
         <Route path="/team/:teamName" component={Team} onEnter={createFetchDataHook(store, history)} />
@@ -42,7 +42,13 @@ export default function createFetchDataHook(store){
             .map(route => route.component)
             .filter((component) => getFetchData(component))
             .map(getFetchData)
-            .map(fetchData => fetchData(store, params, query || {}));
+            .map(fetchData => {
+                if(fetchData instanceof Array){
+                    fetchData.map(f => f(store, params, query || {}));
+                }else{
+                    fetchData(store, params, query || {});
+                }
+            });
 
         callback();
     };

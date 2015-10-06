@@ -20,7 +20,7 @@ export default function reducer(state = initialState, action = {}){
         case ActionTypes.FETCH_INFO_SUCCESS:
             return {
                 ...state,
-                ...action.result //TODO: move JSON parse to api
+                ...action.result
             };
         default:
             return state;

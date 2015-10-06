@@ -17,5 +17,18 @@
 		"email": ["szczepmillenium@gmail.com"],
 		"gg": ["2596392"]
 	},
-	"newsfeed": "http://www.facebook.com/szczepmillenium"
+	"newsfeed": "http://www.facebook.com/szczepmillenium",
+	"teams": [
+		{"name": "7 GZ", "file": "7gz"},
+		{"name": "19 GZ", "file": "19gz"},
+		{"name": "9 DH", "file": "9dh"},
+		{"name": "17 DH", "file": "17dh"},
+		{"name": "29 DW", "file": "29dw"},
+		{"name": "13 DH", "file": "13dh"}
+	],
+	"galleries": [
+		{"name": "Szczep Millenium", "url": "https://picasaweb.google.com/112150712274847266679"},
+		{"name": "Archiwum", "url": "https://picasaweb.google.com/szczepmillenium"},
+		{"name": "Hufiec", "url": "https://picasaweb.google.com/114215322287153156788"}
+	]
 }
