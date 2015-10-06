@@ -21,7 +21,7 @@ export default class Header extends Component {
 	render (){
 		let {pathname} = this.props.location;
 		let galleries = this.props.galleries
-			? this.props.galleries.map(({url, name}) => <li key={url}><a href={url}>{name}</a></li>)
+			? this.props.galleries.map(({url, name}) => <li key={url}><a href={url} target="_blank">{name}</a></li>)
 			: null;
 		let teams = this.props.teams
 			? this.props.teams.map(({file, name}) => <li key={file}><Link to={`/team/${file}`}>{name}</Link></li>)

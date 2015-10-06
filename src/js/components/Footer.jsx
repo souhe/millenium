@@ -7,7 +7,11 @@ export default class Footer extends Component{
     }
 
     render(){
-        let links = this.props.links.map(({url, name}) => <div className="large-6 medium-6 small-12 column" key={url}><a href={url}>{name}</a></div>);
+        let links = this.props.links.map(({url, name}) => (
+            <div className="large-6 medium-6 small-12 column" key={url}>
+                <a href={url} target="_blank">{name}</a>
+            </div>)
+        );
         return (
             <footer className={styles.footer}>
                 <div className="row">
