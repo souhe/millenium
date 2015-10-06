@@ -19,13 +19,13 @@ export default class Cadre extends Component{
         var {list} = this.props;
         var content = list ? list.map(item => <CadreItem {...item} key={uuid.v1()} />) : null;
 
-        return (
+        return list && list.length ? (
             <div className={styles.cadre}>
                 <H3>Kadra</H3>
                 <ul  className={styles.cadreList}>
                     {content}
                 </ul>
             </div>
-        );
+        ): null;
     }
 }
