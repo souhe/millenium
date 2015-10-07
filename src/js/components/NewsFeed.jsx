@@ -7,13 +7,15 @@ export default class Info extends Component{
     }
 
     componentDidMount(){
+        console.log("mounted");
         if(this.props.url){
             this.fbTryInit();
         }
     }
 
-    componentWillReceiveProps(nextProps){
-        if(nextProps.url){
+    componentDidUpdate(prevProps){
+        console.log("updated");
+        if(this.props.url !== prevProps.url && this.props.url){
             this.fbTryInit();
         }
     }
