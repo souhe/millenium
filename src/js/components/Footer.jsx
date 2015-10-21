@@ -25,6 +25,18 @@ export default class Footer extends Component{
                     <div className="large-6 medium-6 small-12 column">
                         <div className={styles.linksHeader}>Kontakt </div>
                         <div>szczepmillenium@gmail.com</div>
+
+                        <div className="row">
+                            <div className="large-3 medium-6 small-12 column">
+                                <img src="images/zhp.png" alt="" className={styles.logo} />
+                            </div>
+                            <div className="large-3 medium-6 small-12 column">
+                                <img src="images/hufiec.png" alt="" className={styles.logo} />
+                            </div>
+                            <div className="large-3 medium-6 small-12 column"></div>
+                            <div className="large-3 medium-6 small-12 column"></div>
+
+                        </div>
                     </div>
                 </div>
             </footer>

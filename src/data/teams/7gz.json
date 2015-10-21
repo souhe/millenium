@@ -8,9 +8,15 @@
 	}, {
 		"title": "przyboczna",
 		"name": "Weronika Wąsala"
+	}, {
+		"title": "przyboczna",
+		"name": "Magdalena Świtała"
+	}, {
+		"title": "przyboczna",
+		"name": "Julia Doleżych"
 	}],
 	"meeting": {
-		"day": "czwartek",
+		"day": "poniedziałek",
 		"time": "16:15",
 		"place": "SP nr3"
 	}
